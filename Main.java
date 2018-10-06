@@ -1,24 +1,17 @@
-import java.util.*;
 import java.util.Scanner;
-public class Main
-{
-    public static void main(String[] args) 
-    {
-        int a;
-        Scanner scan = new Scanner(System.in);
-      a = scan.nextInt();
-      
-        if(number > 0)
-        {
-            System.out.println(a+" is positive number");
-        }
-        else if(number < 0)
-        {
-            System.out.println(a+" is negative number");
-        }
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
         else
-        {
-            System.out.println(a+" is neither positive nor negative");
-        }
+            System.out.println(num + " is odd");
     }
 }
