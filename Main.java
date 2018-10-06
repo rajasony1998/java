@@ -6,8 +6,8 @@ public class Main
     {
         int a;
         Scanner scan = new Scanner(System.in);
-        number = scan.nextInt();
-        scan.close();
+      a = scan.nextInt();
+      
         if(number > 0)
         {
             System.out.println(a+" is positive number");
