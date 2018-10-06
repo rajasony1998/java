@@ -7,10 +7,10 @@ import java.util.Scanner;
     Scanner input = new Scanner(System.in);
     num = input.nextInt();
     if ( num % 2 == 0 )
-        System.out.println("Entered number is even");
+        System.out.println("even");
      else if(num<0)
      System.out.println("invalid");
      else
-        System.out.println("Entered number is odd");
+        System.out.println("odd");
   }
 }
