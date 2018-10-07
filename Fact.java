@@ -1,8 +1,8 @@
 import java.util.*;
 import java.lang.*;
 public class Factorial{
-      public static void main(String args[]){
-           int n;
+      public static void main(String aa[]){
+           int n,p;
            int f=1;
            Scanner s=new Scanner(System.in);
            n=s.nextInt();
