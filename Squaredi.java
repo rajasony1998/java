@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Squaredi
+ class Squaredigit
 {
     
     static void square(int num)
