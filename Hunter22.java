@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-public class Hunter22
+class Hunter22
 {
     public static void main(String args[])
     {
